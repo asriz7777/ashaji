@@ -1,0 +1,13 @@
+---
+- endPoint: "/example/v1/hotels"
+  method: "POST"
+  sampleBody: "{\n  'city' : null,\n  'description' : null,\n  'id' : null,\n  'name'\
+    \ : null,\n  'rating' : null\n}"
+  sqlQueryParams: []
+  sqlProperties: []
+- endPoint: "/example/v1/hotels/{id}"
+  method: "PUT"
+  sampleBody: "{\n  'city' : null,\n  'description' : null,\n  'id' : null,\n  'name'\
+    \ : null,\n  'rating' : null\n}"
+  sqlQueryParams: []
+  sqlProperties: []
